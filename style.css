@@ -1,0 +1,59 @@
+html { 
+    background-color: darkslategray;
+}
+
+#block {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: gray;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+#mid-block {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#block-face {
+    position: relative;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(47, 116, 38);
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#block-top {
+    width: 50px;
+    background-color: rgb(70, 170, 57);
+    margin: 0;
+}
+
+#block-bottom {
+    width: 50px;
+    background-color: rgb(24, 58, 19);
+    margin: 0;
+}
+
+#block-right {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    align-self: none;
+}
+
+#block-left {
+    background-color: blueviolet;
+    height: 100%;
+    margin: 0;
+}
